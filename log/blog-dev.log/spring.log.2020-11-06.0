@@ -1,0 +1,6 @@
+2020-11-06 18:26:47.591  INFO 2344 --- [main] com.air.myblog.MyblogApplicationTests    : Starting MyblogApplicationTests on DESKTOP-P8KDMRU with PID 2344 (started by air¹â»Ô in D:\myblog)
+2020-11-06 18:26:47.598  INFO 2344 --- [main] com.air.myblog.MyblogApplicationTests    : The following profiles are active: dev
+2020-11-06 18:26:50.230  INFO 2344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 18:26:50.361  INFO 2344 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-06 18:26:50.918  INFO 2344 --- [main] com.air.myblog.MyblogApplicationTests    : Started MyblogApplicationTests in 3.953 seconds (JVM running for 5.042)
+2020-11-06 18:26:51.505  INFO 2344 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

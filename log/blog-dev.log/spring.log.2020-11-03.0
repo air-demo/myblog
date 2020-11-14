@@ -1,0 +1,185 @@
+2020-11-03 16:37:47.129  INFO 1716 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 1716 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 16:37:47.137  INFO 1716 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 16:37:47.190  INFO 1716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 16:37:47.191  INFO 1716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 16:37:48.427  INFO 1716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 16:37:48.435  INFO 1716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 16:37:48.435  INFO 1716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 16:37:48.501  INFO 1716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 16:37:48.501  INFO 1716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
+2020-11-03 16:37:49.112  INFO 1716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 16:37:49.180  INFO 1716 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 16:37:49.557  INFO 1716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 16:37:49.858  INFO 1716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 16:37:49.874  INFO 1716 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 3.245 seconds (JVM running for 4.221)
+2020-11-03 16:37:58.205  INFO 1716 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 16:37:58.207  INFO 1716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 16:37:58.222  INFO 1716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-11-03 16:37:58.249  INFO 1716 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 16:37:58.264  INFO 1716 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-03 16:37:58.421  INFO 1716 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-03 16:37:58.490  INFO 1716 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 16:38:01.853  INFO 1716 --- [http-nio-8080-exec-6] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 16:38:01.864  INFO 1716 --- [http-nio-8080-exec-6] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 16:38:02.422  INFO 1716 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 16:38:02.430  INFO 1716 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 16:38:05.960  INFO 1716 --- [http-nio-8080-exec-2] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 16:38:05.968  INFO 1716 --- [http-nio-8080-exec-2] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 16:38:18.695  INFO 1716 --- [http-nio-8080-exec-8] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 16:38:18.706  INFO 1716 --- [http-nio-8080-exec-8] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 16:38:44.197  INFO 1716 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.search', args=[{}, 1, 模板]}
+2020-11-03 16:38:44.219  INFO 1716 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : search
+2020-11-03 17:13:35.965  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 2244 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 17:13:35.967  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 17:13:36.008  INFO 2244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:13:36.008  INFO 2244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:13:36.882  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 17:13:36.888  INFO 2244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:13:36.888  INFO 2244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:13:36.939  INFO 2244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:13:36.940  INFO 2244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 932 ms
+2020-11-03 17:13:37.340  INFO 2244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:13:37.402  INFO 2244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 17:13:37.672  INFO 2244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:13:37.957  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 17:13:37.965  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 2.383 seconds (JVM running for 3.247)
+2020-11-03 17:13:41.808  INFO 2244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:13:41.810  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:13:41.823  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-11-03 17:13:41.849  INFO 2244 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 17:13:41.864  INFO 2244 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-03 17:13:41.942  INFO 2244 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-03 17:13:41.996  INFO 2244 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 17:14:06.610  INFO 2244 --- [http-nio-8080-exec-10] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.blog', args=[2, {}]}
+2020-11-03 17:14:06.621  INFO 2244 --- [http-nio-8080-exec-10] com.air.myblog.aspect.LogAspect          : Result : blog
+2020-11-03 17:16:23.301  INFO 2244 --- [http-nio-8080-exec-7] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.blog', args=[1, {}]}
+2020-11-03 17:16:23.305  INFO 2244 --- [http-nio-8080-exec-7] com.air.myblog.aspect.LogAspect          : Result : blog
+2020-11-03 17:17:29.835  INFO 2244 --- [http-nio-8080-exec-2] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.blog', args=[1, {}]}
+2020-11-03 17:17:29.837  INFO 2244 --- [http-nio-8080-exec-2] com.air.myblog.aspect.LogAspect          : Result : blog
+2020-11-03 17:17:30.816  INFO 2244 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:17:30.817  INFO 2244 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-03 17:17:30.830  INFO 2244 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-03 17:17:30.916  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 2244 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 17:17:30.917  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 17:17:31.181  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 17:17:31.182  INFO 2244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:17:31.182  INFO 2244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:17:31.198  INFO 2244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:17:31.199  INFO 2244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2020-11-03 17:17:31.265  INFO 2244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:17:31.275  INFO 2244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 17:17:31.504  INFO 2244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:17:31.531  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 17:17:31.534  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 0.655 seconds (JVM running for 236.815)
+2020-11-03 17:17:31.535  INFO 2244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-03 17:17:33.462  INFO 2244 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:17:33.516  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 2244 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 17:17:33.516  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 17:17:33.731  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 17:17:33.732  INFO 2244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:17:33.732  INFO 2244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:17:33.743  INFO 2244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:17:33.743  INFO 2244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 225 ms
+2020-11-03 17:17:33.951  INFO 2244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:17:33.984  INFO 2244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 17:17:34.186  INFO 2244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:17:34.197  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 17:17:34.200  INFO 2244 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 0.707 seconds (JVM running for 239.482)
+2020-11-03 17:17:34.201  INFO 2244 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-03 17:17:34.951  INFO 2244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:17:34.952  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:17:34.961  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-11-03 17:42:27.870  INFO 14920 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 14920 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 17:42:27.872  INFO 14920 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 17:42:27.916  INFO 14920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:42:27.916  INFO 14920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:42:29.155  INFO 14920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 17:42:29.165  INFO 14920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:42:29.166  INFO 14920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:42:29.242  INFO 14920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:42:29.243  INFO 14920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1327 ms
+2020-11-03 17:42:29.765  INFO 14920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:42:29.838  INFO 14920 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 17:42:30.256  INFO 14920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:42:30.591  INFO 14920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 17:42:30.600  INFO 14920 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 3.131 seconds (JVM running for 4.133)
+2020-11-03 17:42:33.984  INFO 14920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:42:33.985  INFO 14920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:42:33.995  INFO 14920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-11-03 17:42:34.017  INFO 14920 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 17:42:34.033  INFO 14920 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-03 17:42:34.120  INFO 14920 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-03 17:42:34.179  INFO 14920 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 17:43:18.159  INFO 14920 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/blog/3', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.blog', args=[3, {}]}
+2020-11-03 17:43:18.182  INFO 14920 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Result : blog
+2020-11-03 17:44:35.857  INFO 2584 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 2584 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 17:44:35.859  INFO 2584 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 17:44:35.897  INFO 2584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:44:35.897  INFO 2584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:44:36.711  INFO 2584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 17:44:36.716  INFO 2584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:44:36.716  INFO 2584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:44:36.770  INFO 2584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:44:36.770  INFO 2584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2020-11-03 17:44:37.170  INFO 2584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:44:37.242  INFO 2584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 17:44:37.518  INFO 2584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:44:37.813  INFO 2584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 17:44:37.822  INFO 2584 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 2.299 seconds (JVM running for 3.514)
+2020-11-03 17:44:46.142  INFO 2584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:44:46.144  INFO 2584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:44:46.157  INFO 2584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-11-03 17:44:46.183  INFO 2584 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 17:44:46.199  INFO 2584 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-03 17:44:46.279  INFO 2584 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-03 17:44:46.329  INFO 2584 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 17:45:00.611  INFO 2584 --- [http-nio-8080-exec-8] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 17:45:00.618  INFO 2584 --- [http-nio-8080-exec-8] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 17:45:09.323  INFO 2584 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/blog/3', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.blog', args=[3, {}]}
+2020-11-03 17:45:09.344  INFO 2584 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Result : blog
+2020-11-03 17:51:28.708  INFO 2808 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 2808 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 17:51:28.711  INFO 2808 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 17:51:28.763  INFO 2808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 17:51:28.763  INFO 2808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 17:51:29.885  INFO 2808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 17:51:29.891  INFO 2808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 17:51:29.891  INFO 2808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 17:51:29.952  INFO 2808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 17:51:29.952  INFO 2808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2020-11-03 17:51:30.629  INFO 2808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 17:51:30.730  INFO 2808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 17:51:31.214  INFO 2808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 17:51:31.629  INFO 2808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 17:51:31.641  INFO 2808 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 3.278 seconds (JVM running for 4.249)
+2020-11-03 17:51:39.541  INFO 2808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 17:51:39.542  INFO 2808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 17:51:39.554  INFO 2808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-11-03 17:51:39.582  INFO 2808 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 17:51:39.595  INFO 2808 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-03 17:51:39.666  INFO 2808 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-03 17:51:39.715  INFO 2808 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 17:51:58.115  INFO 2808 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 17:51:58.125  INFO 2808 --- [http-nio-8080-exec-5] com.air.myblog.aspect.LogAspect          : Result : index
+2020-11-03 17:52:02.104  INFO 2808 --- [http-nio-8080-exec-9] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/blog/3', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.blog', args=[3, {}]}
+2020-11-03 17:52:02.126  INFO 2808 --- [http-nio-8080-exec-9] com.air.myblog.aspect.LogAspect          : Result : blog
+2020-11-03 21:25:43.194  INFO 16380 --- [restartedMain] com.air.myblog.MyblogApplication         : Starting MyblogApplication on DESKTOP-P8KDMRU with PID 16380 (D:\myblog\target\classes started by air光辉 in D:\myblog)
+2020-11-03 21:25:43.196  INFO 16380 --- [restartedMain] com.air.myblog.MyblogApplication         : The following profiles are active: dev
+2020-11-03 21:25:43.237  INFO 16380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-03 21:25:43.237  INFO 16380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-03 21:25:44.235  INFO 16380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-03 21:25:44.245  INFO 16380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-03 21:25:44.245  INFO 16380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 21:25:44.303  INFO 16380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-03 21:25:44.303  INFO 16380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2020-11-03 21:25:44.810  INFO 16380 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 21:25:44.880  INFO 16380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-03 21:25:45.226  INFO 16380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-03 21:25:45.519  INFO 16380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 21:25:45.530  INFO 16380 --- [restartedMain] com.air.myblog.MyblogApplication         : Started MyblogApplication in 2.755 seconds (JVM running for 3.733)
+2020-11-03 21:25:57.151  INFO 16380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 21:25:57.152  INFO 16380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-03 21:25:57.164  INFO 16380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-11-03 21:25:57.192  INFO 16380 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.air.myblog.Controller.IndexController.index', args=[{}, 1, {}]}
+2020-11-03 21:25:57.208  INFO 16380 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-03 21:25:57.326  INFO 16380 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-03 21:25:57.399  INFO 16380 --- [http-nio-8080-exec-1] com.air.myblog.aspect.LogAspect          : Result : index
